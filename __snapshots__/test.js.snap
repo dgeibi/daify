@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inner key 1`] = `
+Object {
+  "1": Object {
+    "ns": Object {
+      "id": 1,
+    },
+  },
+  "2": Object {
+    "ns": Object {
+      "id": 2,
+    },
+  },
+  "3": Object {
+    "ns": Object {
+      "id": 3,
+    },
+    "yes": true,
+  },
+}
+`;
+
+exports[`just works 1`] = `
+Object {
+  "1": Object {
+    "hello": 1,
+    "id": 1,
+    "lists": Object {
+      "1": Object {
+        "hello": 2,
+        "id": 1,
+      },
+    },
+  },
+  "2": Object {
+    "hello": 1,
+    "id": 2,
+    "lists": Object {
+      "1": Object {
+        "hello": 2,
+        "id": 1,
+      },
+    },
+  },
+  "3": Object {
+    "hello": 1,
+    "id": 3,
+    "lists": Object {
+      "1": Object {
+        "hello": 2,
+        "id": 1,
+      },
+    },
+    "namespace": Object {
+      "inners": Object {
+        "1": Object {
+          "hello": 2,
+          "id": 1,
+        },
+        "2": Object {
+          "hello": 2,
+          "id": 2,
+        },
+        "3": Object {
+          "hello": 2,
+          "id": 3,
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`nested include 1`] = `
+Object {
+  "1": Object {
+    "id": 1,
+    "lists": Object {
+      "1": Object {
+        "cards": Object {
+          "101": Object {
+            "id": 101,
+          },
+          "111": Object {
+            "id": 111,
+          },
+          "99": Object {
+            "id": 99,
+          },
+        },
+        "hello": 2,
+        "id": 1,
+      },
+    },
+  },
+  "2": Object {
+    "id": 2,
+    "lists": Object {
+      "1": Object {
+        "hello": 2,
+        "id": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`set key by function 1`] = `
+Object {
+  "1": Object {
+    "ns": Object {
+      "id": 1,
+    },
+  },
+  "2": Object {
+    "ns": Object {
+      "id": 2,
+    },
+  },
+  "3": Object {
+    "ns": Object {
+      "id": 3,
+    },
+    "yes": true,
+  },
+}
+`;

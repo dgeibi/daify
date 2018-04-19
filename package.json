@@ -1,0 +1,48 @@
+{
+  "name": "daify",
+  "version": "1.0.0",
+  "description": "dictify and arrayify",
+  "main": "index.js",
+  "dependencies": {
+    "is-primitive": "^3.0.0",
+    "get-value": "^3.0.1",
+    "set-value": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "eslint": "^4.19.1",
+    "eslint-config-dgeibi": "^5.0.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1"
+  },
+  "scripts": {
+    "build": "babel src/index.js -d .",
+    "test": "jest",
+    "precommit": "lint-staged"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dict",
+    "array",
+    "dictify",
+    "arrayify"
+  ],
+  "author": "dgeibi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgeibi/daify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgeibi/daify/issues"
+  },
+  "homepage": "https://github.com/dgeibi/daify#readme"
+}
